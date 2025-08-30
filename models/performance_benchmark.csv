@@ -1,0 +1,25 @@
+Approach,Test_Accuracy,Feature_Count,Complexity
+BERT Only + Random Forest,0.67,768,Medium
+TF-IDF + Metadata + BERT + Random Forest,0.655,5770,High
+BERT + Metadata + Random Forest,0.64,770,Medium
+BERT Only + Svm,0.64,768,Medium
+TF-IDF + Metadata + BERT + Svm,0.63,5770,High
+BERT + Metadata + Svm,0.63,770,Medium
+TF-IDF + Metadata + BERT + Gradient Boosting,0.625,5770,High
+TF-IDF Only + Logistic Regression,0.625,5000,High
+TF-IDF + Metadata + Logistic Regression,0.62,5002,High
+BERT + Metadata + Gradient Boosting,0.62,770,Medium
+BERT Only + Gradient Boosting,0.615,768,Medium
+TF-IDF + Metadata + BERT + Logistic Regression,0.61,5770,High
+TF-IDF + Metadata + Random Forest,0.605,5002,High
+TF-IDF + Metadata + Svm,0.6,5002,High
+TF-IDF Only + Random Forest,0.6,5000,High
+TF-IDF Only + Svm,0.6,5000,High
+TF-IDF Only + Gradient Boosting,0.59,5000,High
+TF-IDF + Metadata + Gradient Boosting,0.58,5002,High
+Metadata Only + Svm,0.57,2,Low
+Metadata Only + Logistic Regression,0.57,2,Low
+BERT Only + Logistic Regression,0.52,768,Medium
+BERT + Metadata + Logistic Regression,0.515,770,Medium
+Metadata Only + Gradient Boosting,0.44,2,Low
+Metadata Only + Random Forest,0.44,2,Low

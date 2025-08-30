@@ -1,0 +1,25 @@
+Feature_Combination,Model,Test_Accuracy,Train_Accuracy,Overfitting,Feature_Count
+BERT Only,Random Forest,0.67,1.0,0.32999999999999996,768
+TF-IDF + Metadata + BERT,Random Forest,0.655,1.0,0.345,5770
+BERT + Metadata,Random Forest,0.64,1.0,0.36,770
+BERT Only,Svm,0.64,0.805,0.16500000000000004,768
+TF-IDF + Metadata + BERT,Svm,0.63,0.941,0.31099999999999994,5770
+BERT + Metadata,Svm,0.63,0.806,0.17600000000000005,770
+TF-IDF + Metadata + BERT,Gradient Boosting,0.625,0.967,0.34199999999999997,5770
+TF-IDF Only,Logistic Regression,0.625,1.0,0.375,5000
+TF-IDF + Metadata,Logistic Regression,0.62,1.0,0.38,5002
+BERT + Metadata,Gradient Boosting,0.62,0.979,0.359,770
+BERT Only,Gradient Boosting,0.615,0.982,0.367,768
+TF-IDF + Metadata + BERT,Logistic Regression,0.61,1.0,0.39,5770
+TF-IDF + Metadata,Random Forest,0.605,1.0,0.395,5002
+TF-IDF + Metadata,Svm,0.6,0.977,0.377,5002
+TF-IDF Only,Random Forest,0.6,1.0,0.4,5000
+TF-IDF Only,Svm,0.6,0.977,0.377,5000
+TF-IDF Only,Gradient Boosting,0.59,0.803,0.21300000000000008,5000
+TF-IDF + Metadata,Gradient Boosting,0.58,0.824,0.244,5002
+Metadata Only,Svm,0.57,0.588,0.018000000000000016,2
+Metadata Only,Logistic Regression,0.57,0.572,0.0020000000000000018,2
+BERT Only,Logistic Regression,0.52,0.993,0.473,768
+BERT + Metadata,Logistic Regression,0.515,0.994,0.479,770
+Metadata Only,Gradient Boosting,0.44,0.724,0.284,2
+Metadata Only,Random Forest,0.44,0.89,0.45,2

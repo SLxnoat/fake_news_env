@@ -1,0 +1,21 @@
+{
+  "feature_combination": "bert_only",
+  "combination_name": "BERT Only",
+  "model_name": "random_forest",
+  "test_accuracy": 0.67,
+  "requires_bert": true,
+  "metadata_features": [
+    "party_code",
+    "subject_code",
+    "speaker_code",
+    "job_code",
+    "state_code",
+    "statement_length",
+    "word_count",
+    "has_question",
+    "has_exclamation",
+    "has_quotes",
+    "uppercase_ratio",
+    "avg_word_length"
+  ]
+}
