@@ -609,7 +609,7 @@ def main_preprocessing_workflow(data_dir: str = 'data') -> bool:
         print(f"❌ Preprocessing workflow failed: {str(e)}")
         return False
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Run preprocessing if script is executed directly
     print("🧹 Running preprocessing utilities...")
     
