@@ -873,7 +873,7 @@ if st.checkbox("👨‍🏫 Show Performance Monitoring", value=False):
     ]
     
     for name, path in model_files:
-        model_status[name] = "✅ Loaded" if os.path.exists(path) else "❌ Missing"
+        model_status[name] = "✅ Loaded" if os.path.exists(path) else "❗ Missing"
     
     status_df = pd.DataFrame(list(model_status.items()), columns=['Component', 'Status'])
     st.dataframe(status_df, use_container_width=True)
