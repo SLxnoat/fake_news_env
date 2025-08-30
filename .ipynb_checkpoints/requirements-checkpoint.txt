@@ -31,3 +31,11 @@ ipykernel==6.25.0
 # For better performance
 psutil==5.9.6
 tqdm==4.66.1
+
+# Missing dependencies from your code
+plotly==5.17.0  # Already included but needed for your Streamlit app
+scipy==1.10.1   # Required by scikit-learn and other scientific computing
+protobuf==3.20.3 # Required by TensorFlow and Transformers
+tokenizers==0.15.0 # Required by Transformers
+datasets==2.14.6  # Useful for working with HuggingFace datasets
+sentencepiece==0.1.99 # Required for some tokenizers
