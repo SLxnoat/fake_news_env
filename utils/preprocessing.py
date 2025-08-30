@@ -10,6 +10,7 @@ from typing import List, Dict, Union
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+import os  # Added missing import
 
 # Download required NLTK data if not already present
 try:
