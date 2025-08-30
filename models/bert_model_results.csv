@@ -1,0 +1,2 @@
+model_type,test_accuracy,sample_size,training_epochs,batch_size,device_used,total_parameters,trainable_parameters
+DistilBERT,0.62,400,3,8,cpu,66955010,66955010
